@@ -1,0 +1,42 @@
+[
+    {
+        "logo": "ASRLogo.png",
+        "title": "Anupma Sweets And Restaurant",
+        "desc": "Welcome to Anupam Sweets, your premier destination for delectable sweets and delightful dining experiences. Our website offers a comprehensive menu showcasing our wide array of mouthwatering sweets and savory dishes, each crafted with the finest ingredients and utmost care. Whether you're looking to satisfy a sweet tooth or enjoy a delicious meal, Anupam Sweets has something to tantalize every palate. For any inquiries, our contact details are readily available on the site, ensuring a seamless connection with our shop.",
+        "tech_stack": "HTML, CSS, JavaScript",
+        "sample": null,
+        "link": null
+    },
+    {
+        "logo": null,
+        "title": "Movie House",
+        "desc": "Introducing Movie House, your ultimate destination to explore the latest movies in the world of cinema. At Movie House, we bring you an up-to-date catalog of the newest releases, ensuring you never miss out on the latest blockbusters, indie gems, or critically acclaimed films. With an intuitive and user-friendly interface, browsing through our extensive movie collection is a seamless experience. Stay connected with the film industry’s latest trends and releases, and discover your next favorite movie today at Movie House!",
+        "tech_stack": "React JS, React Router DOM, JavaScript, CSS",
+        "sample": null,
+        "link": null
+    },
+    {
+        "logo": "PFTLogo.png",
+        "title": "Personal Finance Tracker",
+        "desc": "The Personal Finance Tracker is a web application designed to help users manage their finances efficiently. Built with React JS, this application leverages the power of Redux for state management, ensuring a seamless and interactive user experience. The user interface is crafted using HTML and styled with CSS, offering a visually appealing and responsive design.",
+        "tech_stack": "React JS, Redux, HTML, CSS, JavaScript, Docker, Local Storage",
+        "sample": "PFT_Sample.png",
+        "link": "http://localhost:8089/"
+    },
+    {
+        "logo": "RPSLogo.png",
+        "title": "Rock Paper Scissor Game",
+        "desc": "Rock, Paper, Scissors is a classic hand game where players simultaneously form one of three shapes, with the winner determined by the rules: Rock crushes Scissors, Scissors cuts Paper, and Paper covers Rock.",
+        "tech_stack": "HTML, CSS, JavaScript",
+        "sample": "RPSG_Sample.png",
+        "link": "https://github.com/PushpJain009/Rock-Paper-Scissors-Game"
+    },
+    {
+        "logo": "GKLogo.png",
+        "title": "Google Keep Clone",
+        "desc": "Google Keep clone is a note-taking application that enables users to create, organize, and share notes, and lists.",
+        "tech_stack": "React JS, CSS",
+        "sample": "",
+        "link": "https://github.com/PushpJain009/Google-Keep-Clone"
+    }
+]

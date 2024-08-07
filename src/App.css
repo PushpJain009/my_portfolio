@@ -1,0 +1,11 @@
+/* * {
+    background: url(https://pixelz.cc/wp-content/uploads/2017/12/honeycomb-pattern-white-uhd-8k-wallpaper-768x432.jpg);
+} */
+
+* {
+    user-select: none;
+}
+
+body {
+    /* cursor: url("../src/assets/rocket-launcher.png"), auto; */
+}

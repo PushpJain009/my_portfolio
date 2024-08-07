@@ -1,0 +1,56 @@
+[
+    {
+        "logo": "S2SConnectLogo2.png",
+        "title": "S2S - Connect",
+        "desc": "S2S Connect is a mobile application that enables users to connect with one another, post and publish jobs, and apply for available positions. Users can like posts from others and create business profiles to expand their business.",
+        "tech_stack": "React Native, Redux, Node JS, Express JS, Swagger, Docker, Jest",
+        "client": "Jain Community (India)",
+        "sample": null,
+        "link": null
+    },
+    {
+        "logo": "OvoLinkedInLogo2.png",
+        "title": "OVO - LinkedIn Extension",
+        "desc": "The OVO LinkedIn Extension is an add-on for LinkedIn that allows users to generate AI-driven comments on posts and personal messages. Users can regenerate these comments or messages based on specified goals and tones, or utilize personas for generating tailored responses..",
+        "tech_stack": "React JS, Node JS, Webpack, JWT, Google OAuth2",
+        "client": "OVO (Dubai)",
+        "sample": "OLE_Sample2.png",
+        "link": null
+    },
+    {
+        "logo": "alpineAiLogo.png",
+        "title": "Alpine AI",
+        "desc": "Alpine AI is a Chrome extension designed to protect user privacy online by anonymizing personal information. It replaces the user's personal data with anonymized text, which can later be reverted to the original information when needed.",
+        "tech_stack": "JavaScript, Node JS, Express JS, KeyCloak",
+        "client": "Alpine AI (Germany)",
+        "sample": "AlpineAI_Smaple.png",
+        "link": null
+    },
+    {
+        "logo": null,
+        "title": "E-commerce Website Template",
+        "desc": "The comprehensive Template with an Admin Panel for the e-commerce website offers seamless management of products, categories, users, and payment gateways with a visually appealing and responsive UI. This user-friendly design enhances navigation and ease of management, while robust APIs ensure efficient data communication and optimal performance. Key features include advanced user management capabilities, allowing administrators to control access levels and secure sensitive information.",
+        "tech_stack": "React JS, Next JS, Redux, MUI, Node JS, Express JS",
+        "client": "Internal Project",
+        "sample": null,
+        "link": null
+    },
+    {
+        "logo": "epassLogo.png",
+        "title": "ePass Auto 2003 Token",
+        "desc": "Our web application offers a comprehensive suite of digital services designed to enhance security and streamline management processes. With features including digital signatures, token management, token PINs, and updates, our platform ensures seamless authentication and verification. Additionally, our HyperPKI integration supports robust security protocols, making it easier for users to manage their digital identities and secure transactions effectively.",
+        "tech_stack": "PHP, HTML, CSS, JQuery, Codeigniter",
+        "client": "ePass Auto (India)",
+        "sample": null,
+        "link": "https://epasstoken.in/"
+    },
+    {
+        "logo": "radheSolutionLogo.png",
+        "title": "Radhe Solution",
+        "desc": "Our web application is designed to streamline and simplify various essential services, including Tax Registration, Tax Filing, Digital Signature Certificates (DSC), PVC Card issuance, and more. By offering a comprehensive platform, we aim to provide a user-friendly and efficient solution for managing these crucial tasks, ensuring that users can navigate their tax and documentation needs with ease and confidence.",
+        "tech_stack": "PHP, HTML, CSS, JQuery, Codeigniter",
+        "client": "Radhe Solution (India)",
+        "sample": null,
+        "link": "https://radhe-solution.com/"
+    }
+]

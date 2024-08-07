@@ -1,0 +1,35 @@
+.skills {
+    margin: 0 auto;
+    height: auto;
+    background-color: rgb(92, 181, 236);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
+
+.mySkills {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.mySkills a {
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mySkills img {
+    width: 100px;
+    padding: 10px;
+}
+
+.mySkills a:hover {
+    transform: scale(1.1);
+    border-radius: 20%;
+    /* Slightly enlarge icon on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    /* Add shadow on hover */
+}

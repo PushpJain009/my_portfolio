@@ -1,0 +1,15 @@
+.experience {
+    height: auto;
+    /* max-width: 85rem; */
+    margin: 0 auto;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.experienceHeading {
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,28 @@
+.statistics {
+    height: calc(100vh - 15rem);
+    /* max-width: 85rem; */
+    margin: 0 auto;
+    background-color: rgb(92, 181, 236);
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5%
+}
+
+.github_stats_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row;
+    padding: 1.5% 0;
+}
+
+#github_stats {
+    margin-left: -2%;
+}
+
+#github_streak {
+    margin-left: 2%;
+}

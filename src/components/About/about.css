@@ -1,0 +1,247 @@
+.about {
+    height: auto;
+    padding: 0 0 5% 0;
+    /* background-color: rgb(255, 233, 237); */
+    background-color: rgb(92, 181, 236);
+}
+
+.aboutHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    margin: auto 0;
+}
+
+.selfIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subHeading {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.introContentDetails {
+    width: 900px;
+    max-width: 900px;
+    text-align: center;
+    word-break: normal;
+}
+
+.achivementsMainDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certificationsDiv h3,
+.sportsAchievementsDiv h3 {
+    text-align: center;
+}
+
+.certificationsDiv {
+    max-width: 350px;
+
+}
+
+.sportsAchievementsDiv {
+    max-width: 450px;
+}
+
+
+
+.toggleButtons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+
+/* .toggleButtons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggleButtons button.active {
+    background-color: #0056b3;
+    color: #e6e6e6;
+}
+
+.toggleButtons button:hover {
+    background-color: #0056b3;
+}
+
+.contentDetails {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+.achievementsMainDiv {
+    display: flex;
+    width: 900px;
+    flex-direction: row;
+    padding: 0 3%;
+    gap: 2rem;
+}
+
+.certificationsDiv,
+.sportsAchievementsDiv {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certificationsDiv h3,
+.sportsAchievementsDiv h3 {
+    font-size: 1.25rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.certificationsDiv ul,
+.sportsAchievementsDiv ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certificationsDiv li,
+.sportsAchievementsDiv li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+}
+
+.certificationsDiv li:last-child,
+.sportsAchievementsDiv li:last-child {
+    border-bottom: none;
+
+} */
+
+.selfIntro,
+.myAim,
+.achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subHeading {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.introContentDetails,
+.myAimContent,
+.achievementsContent {
+    width: 900px;
+    max-width: 900px;
+    text-align: center;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+
+/* Toggle Buttons */
+.toggleButtons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.toggleButtons button.active {
+    background-color: #0056b3;
+    color: #e6e6e6;
+}
+
+.toggleButtons button:hover {
+    background-color: #0056b3;
+}
+
+/* Content Details */
+.contentDetails {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Achievements Main Div */
+.achievementsMainDiv {
+    display: flex;
+    width: 900px;
+    flex-direction: row;
+    padding: 0 3%;
+    gap: 2rem;
+}
+
+/* Certifications and Sports Achievements */
+.certificationsDiv,
+.sportsAchievementsDiv {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certificationsDiv h3,
+.sportsAchievementsDiv h3 {
+    font-size: 1.25rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.certificationsDiv ul,
+.sportsAchievementsDiv ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certificationsDiv li,
+.sportsAchievementsDiv li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+}
+
+.certificationsDiv li:last-child,
+.sportsAchievementsDiv li:last-child {
+    border-bottom: none;
+}
+
+/* Optional: Add transition to borders */
+.certificationsDiv li,
+.sportsAchievementsDiv li {
+    border-bottom: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.certificationsDiv li:hover,
+.sportsAchievementsDiv li:hover {
+    border-color: #ccc;
+}

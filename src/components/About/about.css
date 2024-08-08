@@ -245,3 +245,16 @@
 .sportsAchievementsDiv li:hover {
     border-color: #ccc;
 }
+
+
+/* MEDIA QUERY LIST */
+
+/* 
+@media (min-width: 1600px)
+@media (min-width: 1401px)
+@media (min-width: 1201px) and (max-width: 1400px)
+@media (min-width: 993px) and (max-width: 1200px)
+@media (min-width: 769px) and (max-width: 992px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (max-width: 576px) 
+*/

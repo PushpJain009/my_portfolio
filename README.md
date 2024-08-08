@@ -1,4 +1,4 @@
- ## Live: [Link](https://pushpjain009.github.io/my_portfolio/)
+ ## Live [Portfolio Link](https://pushpjain009.github.io/my_portfolio/)
 
 # Getting Started with Create React App
 

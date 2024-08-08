@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.f6a2bb37.css",
+    "main.js": "/my_portfolio/static/js/main.4a5ac7b4.js",
+    "static/media/alpineAiLogo.png": "/my_portfolio/static/media/alpineAiLogo.aaf49e6d2301113cc991.png",
+    "static/media/RPSG_Sample.png": "/my_portfolio/static/media/RPSG_Sample.ab42a91990131ddafa84.png",
+    "static/media/PFT_Sample.png": "/my_portfolio/static/media/PFT_Sample.49073e34f08bfa028ca3.png",
+    "static/media/OLE_Sample2.png": "/my_portfolio/static/media/OLE_Sample2.67b2750eb0d39738d5e5.png",
+    "static/media/system-regular-50-file.gif": "/my_portfolio/static/media/system-regular-50-file.9b870c8508be410fbdd2.gif",
+    "static/media/OLE_Sample1.png": "/my_portfolio/static/media/OLE_Sample1.43e9b0ba8e324b4519dc.png",
+    "static/media/self.png": "/my_portfolio/static/media/self.20bfb54ce8285b7d63e0.png",
+    "static/media/PFTLogo.png": "/my_portfolio/static/media/PFTLogo.f30656c6f107eb5dc902.png",
+    "static/media/ASRLogo.png": "/my_portfolio/static/media/ASRLogo.46af57d0782ed8ed2306.png",
+    "static/media/resume.pdf": "/my_portfolio/static/media/resume.afbddaba3360fe6f6397.pdf",
+    "static/media/GKLogo.png": "/my_portfolio/static/media/GKLogo.4eb9a19b5a3418555a28.png",
+    "static/media/OvoLinkedInLogo2.png": "/my_portfolio/static/media/OvoLinkedInLogo2.7848b2318b2eb0cc6920.png",
+    "static/media/lakebrains-logo.png": "/my_portfolio/static/media/lakebrains-logo.0f7b09fba21293893f73.png",
+    "static/media/phone-call.png": "/my_portfolio/static/media/phone-call.6b50dd91cef4f6ec66cd.png",
+    "static/media/RPSLogo.png": "/my_portfolio/static/media/RPSLogo.5da471700c823631b4b7.png",
+    "static/media/logo.png": "/my_portfolio/static/media/logo.905d33e8624c2e43b38b.png",
+    "static/media/bitbeast.png": "/my_portfolio/static/media/bitbeast.40f780e8e94b0340367f.png",
+    "static/media/epassLogo2.png": "/my_portfolio/static/media/epassLogo2.6fe3670db10d2e309c10.png",
+    "static/media/S2SConnectLogo2.png": "/my_portfolio/static/media/S2SConnectLogo2.90bbf59b0058820f25e6.png",
+    "static/media/radheSolutionLogo2.png": "/my_portfolio/static/media/radheSolutionLogo2.dfd2f60e8144f16e2c86.png",
+    "static/media/S2SConnectLogo.png": "/my_portfolio/static/media/S2SConnectLogo.fa8d5c570ebd4b90e6c8.png",
+    "static/media/epassLogo.png": "/my_portfolio/static/media/epassLogo.8e84a12b3d6c15a680a2.png",
+    "static/media/AlpineAI_Smaple.png": "/my_portfolio/static/media/AlpineAI_Smaple.2fb1b89182e1a632c825.png",
+    "static/media/radheSolutionLogo.png": "/my_portfolio/static/media/radheSolutionLogo.656a3294f10851811035.png",
+    "static/media/twitter.png": "/my_portfolio/static/media/twitter.e58e4997ef85cbd7054c.png",
+    "static/media/webangel_technologies_llp.png": "/my_portfolio/static/media/webangel_technologies_llp.42572dfb8f7dc4b5d321.png",
+    "static/media/linkedin.png": "/my_portfolio/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/gmail.png": "/my_portfolio/static/media/gmail.a2f2146f929409405da0.png",
+    "index.html": "/my_portfolio/index.html",
+    "main.f6a2bb37.css.map": "/my_portfolio/static/css/main.f6a2bb37.css.map",
+    "main.4a5ac7b4.js.map": "/my_portfolio/static/js/main.4a5ac7b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6a2bb37.css",
+    "static/js/main.4a5ac7b4.js"
+  ]
+}

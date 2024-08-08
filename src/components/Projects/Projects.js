@@ -52,14 +52,37 @@ const Projects = () => {
                   {openPersonalIndex === index && (
                     <>
                       <p>{proj?.desc}</p>
-                      {proj?.sample && (
+                      {/* {proj?.sample && (
                         <img
                           src={require(`../../assets/Projects/personal/${proj?.sample}`)}
                           alt={proj?.title}
                           width={400}
                           height="auto"
                         />
+                      )} */}
+                      {proj?.sample && (
+                        <>
+                          {/\.(jpg|jpeg|png|gif)$/i.test(proj.sample) ? (
+                            <img
+                              src={require(`../../assets/Projects/personal/${proj.sample}`)}
+                              alt={proj?.title}
+                              width={400}
+                              height="auto"
+                            />
+                          ) : /\.(mp4|webm|ogg)$/i.test(proj.sample) ? (
+                            <video
+                              src={require(`../../assets/Projects/personal/${proj.sample}`)}
+                              width={400}
+                              height="auto"
+                              autoPlay
+                              controls
+                            >
+                              Your browser does not support the video tag.
+                            </video>
+                          ) : null}
+                        </>
                       )}
+
                       <p>
                         <b>Tech Stack</b> - {proj?.tech_stack}
                       </p>
@@ -116,14 +139,37 @@ const Projects = () => {
                         </p>
                       )}
                       <p>{proj?.desc}</p>
-                      {proj?.sample && (
+                      {/* {proj?.sample && (
                         <img
                           src={require(`../../assets/Projects/professional/${proj.sample}`)}
                           alt={proj?.title}
                           width={400}
                           height="auto"
                         />
+                      )} */}
+                      {proj?.sample && (
+                        <>
+                          {/\.(jpg|jpeg|png|gif)$/i.test(proj.sample) ? (
+                            <img
+                              src={require(`../../assets/Projects/professional/${proj.sample}`)}
+                              alt={proj?.title}
+                              width={400}
+                              height="auto"
+                            />
+                          ) : /\.(mp4|webm|ogg)$/i.test(proj.sample) ? (
+                            <video
+                              src={require(`../../assets/Projects/professional/${proj.sample}`)}
+                              width={400}
+                              height="auto"
+                              autoPlay
+                              controls
+                            >
+                              Your browser does not support the video tag.
+                            </video>
+                          ) : null}
+                        </>
                       )}
+
                       <p>
                         <b>Tech Stack</b> - {proj?.tech_stack}
                       </p>

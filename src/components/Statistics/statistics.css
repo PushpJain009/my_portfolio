@@ -1,7 +1,9 @@
 .statistics {
-    height: calc(100vh - 15rem);
+    /* height: calc(100vh - 15rem); */
+    height: 31rem;
     margin: 0 auto;
     background-color: rgb(92, 181, 236);
+    background-color: #F2F3F4;
     display: flex;
     align-items: center;
     justify-content: space-between;

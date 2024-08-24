@@ -12,6 +12,13 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    justify-content: right;
+}
+
+.firstLetter {
+    color: rgb(92, 181, 236);
+    font-size: 50px;
+    margin-right: 5px;
 }
 
 .desktopMenuListItem {
@@ -23,7 +30,6 @@
 .desktopMenuListItem:hover {
     color: rgb(92, 181, 236);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid rgb(92, 181, 236);
 }
 
 .active {
@@ -75,14 +81,28 @@
 
 
 .logoText {
-    font-family: 'Rubik Doodle Shadow';
+    /* font-family: 'Rubik Doodle Shadow';
     font-size: 35px;
-    font-weight: 700;
-    animation-name: bounce;
-    animation: bounce 1.5s ease infinite;
+    font-weight: 700; */
+    /* animation-name: bounce; */
+    /* animation: bounce 1.5s ease infinite; */
+    animation-name: spinX;
+    animation: spinX 6s infinite linear;
+    margin-top: 4%;
+    margin-left: -2%;
 }
 
-@keyframes bounce {
+@keyframes spinX {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+/* @keyframes bounce {
     70% {
         transform: translateY(0%);
     }
@@ -110,4 +130,4 @@
     100% {
         transform: translateY(0);
     }
-}
+} */

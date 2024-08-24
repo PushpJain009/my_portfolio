@@ -2,7 +2,8 @@
     height: auto;
     padding: 0 0 5% 0;
     /* background-color: rgb(255, 233, 237); */
-    background-color: rgb(92, 181, 236);
+    /* background-color: rgb(92, 181, 236); */
+    background-color: #F2F3F4;
 }
 
 .aboutHeading {
@@ -18,6 +19,27 @@
 .img {
     margin: auto 0;
 }
+
+
+/* .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 50% 50% 26% 74% / 55% 32% 68% 45%;
+     background-color: #f0f0f0;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+} */
+
 
 .selfIntro {
     display: flex;
@@ -66,75 +88,6 @@
     justify-content: center;
 }
 
-/* .toggleButtons button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.toggleButtons button.active {
-    background-color: #0056b3;
-    color: #e6e6e6;
-}
-
-.toggleButtons button:hover {
-    background-color: #0056b3;
-}
-
-.contentDetails {
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-.achievementsMainDiv {
-    display: flex;
-    width: 900px;
-    flex-direction: row;
-    padding: 0 3%;
-    gap: 2rem;
-}
-
-.certificationsDiv,
-.sportsAchievementsDiv {
-    background-color: #f9f9f9;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.certificationsDiv h3,
-.sportsAchievementsDiv h3 {
-    font-size: 1.25rem;
-    color: #333;
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.certificationsDiv ul,
-.sportsAchievementsDiv ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.certificationsDiv li,
-.sportsAchievementsDiv li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #ddd;
-    color: #444;
-}
-
-.certificationsDiv li:last-child,
-.sportsAchievementsDiv li:last-child {
-    border-bottom: none;
-
-} */
-
 .selfIntro,
 .myAim,
 .achievements {
@@ -164,22 +117,32 @@
 
 /* Toggle Buttons */
 .toggleButtons button {
-    background-color: #007bff;
+    /* background-color: rgb(92, 181, 236); */
+    /* background-color: rgb(40, 40, 40);
     color: #fff;
+     */
+    background-color: #FFF;
+    color: rgb(40, 40, 40);
     border: none;
+    border-bottom: 1px solid rgb(40, 40, 40);
     border-radius: 5px;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 2rem;
     cursor: pointer;
     font-size: 1rem;
 }
 
 .toggleButtons button.active {
-    background-color: #0056b3;
-    color: #e6e6e6;
+    /* background-color: rgb(40, 40, 40); */
+    /* border-bottom: 1px solid rgb(40, 40, 40);
+    background-color: #FFF;
+    color: rgb(40, 40, 40); */
+    background-color: rgb(40, 40, 40);
+    color: #fff;
 }
 
 .toggleButtons button:hover {
-    background-color: #0056b3;
+    background-color: rgb(81, 81, 81);
+    color: #e6e6e6;
 }
 
 /* Content Details */
@@ -258,3 +221,164 @@
 @media (min-width: 577px) and (max-width: 768px)
 @media (max-width: 576px) 
 */
+
+
+/* @media (min-width: 1401px) {
+    .grid {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .introContentDetails,
+    .myAimContent,
+    .achievementsContent {
+        width: 80%;
+    }
+
+    .achievementsMainDiv {
+        flex-direction: row;
+    }
+
+    .certificationsDiv,
+    .sportsAchievementsDiv {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .grid {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .introContentDetails,
+    .myAimContent,
+    .achievementsContent {
+        width: 85%;
+    }
+
+    .achievementsMainDiv {
+        flex-direction: row;
+        padding: 0 2%;
+    }
+
+    .certificationsDiv,
+    .sportsAchievementsDiv {
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .grid {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introContentDetails,
+    .myAimContent,
+    .achievementsContent {
+        width: 90%;
+    }
+
+    .achievementsMainDiv {
+        flex-direction: column;
+        padding: 0 4%;
+    }
+
+    .certificationsDiv,
+    .sportsAchievementsDiv {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introContentDetails,
+    .myAimContent,
+    .achievementsContent {
+        width: 95%;
+    }
+
+    .achievementsMainDiv {
+        flex-direction: column;
+        padding: 0 6%;
+    }
+
+    .certificationsDiv,
+    .sportsAchievementsDiv {
+        max-width: 450px;
+        margin: 1rem auto;
+    }
+} 
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introContentDetails,
+    .myAimContent,
+    .achievementsContent {
+        width: 95%;
+    }
+
+    .achievementsMainDiv {
+        flex-direction: column;
+        padding: 0 8%;
+    }
+
+    .certificationsDiv,
+    .sportsAchievementsDiv {
+        max-width: 100%;
+        margin: 1rem auto;
+    }
+} */
+
+@media (max-width: 576px) {
+    .grid {
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .contentDetails p {
+        padding: 10px;
+        line-break: auto;
+    }
+
+    .introContentDetails,
+    .myAimContent,
+    .achievementsContent {
+        width: 100%;
+    }
+
+    .achievementsMainDiv {
+        flex-direction: column;
+        max-width: 560px;
+        width: 320px;
+        align-items: center;
+    }
+
+    .certificationsDiv,
+    .sportsAchievementsDiv {
+        line-break: auto;
+    }
+
+    .toggleButtons {
+        flex-direction: row;
+    }
+
+    .toggleButtons button {
+        align-self: center;
+        width: auto;
+        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+    }
+}

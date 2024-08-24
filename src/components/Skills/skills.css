@@ -1,7 +1,8 @@
 .skills {
     margin: 0 auto;
     height: auto;
-    background-color: rgb(92, 181, 236);
+    /* background-color: rgb(92, 181, 236); */
+    background-color: #F2F3F4;
     display: flex;
     justify-content: center;
     flex-direction: column;

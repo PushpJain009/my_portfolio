@@ -37,31 +37,30 @@ const About = () => {
           <img src={SelfImage} alt="self" width={350} />
         </div>
         <div className="content">
-          <div className="toggleButtons">
-            <button
-              onClick={() => handleToggle("selfIntro")}
-              className={activeSection === "selfIntro" ? "active" : ""}
-            >
-              Self Intro
-            </button>
-            <button
-              onClick={() => handleToggle("myAim")}
-              className={activeSection === "myAim" ? "active" : ""}
-            >
-              My Aim
-            </button>
-            <button
-              onClick={() => handleToggle("achievements")}
-              className={activeSection === "achievements" ? "active" : ""}
-            >
-              Achievements
-            </button>
-          </div>
-
           <div className="contentDetails">
+            <div className="toggleButtons">
+              <button
+                onClick={() => handleToggle("selfIntro")}
+                className={activeSection === "selfIntro" ? "active" : ""}
+              >
+                Self Intro
+              </button>
+              <button
+                onClick={() => handleToggle("myAim")}
+                className={activeSection === "myAim" ? "active" : ""}
+              >
+                My Aim
+              </button>
+              <button
+                onClick={() => handleToggle("achievements")}
+                className={activeSection === "achievements" ? "active" : ""}
+              >
+                Achievements
+              </button>
+            </div>
             {activeSection === "selfIntro" && (
               <div className="selfIntro">
-                <h2 className="subHeading">Self Intro</h2>
+                {/* <h2 className="subHeading">Self Intro</h2> */}
                 <p className="introContentDetails">
                   I'm a dedicated React.js developer with a passion for crafting
                   seamless user experiences. With 2.5+ years of hands-on
@@ -79,7 +78,7 @@ const About = () => {
 
             {activeSection === "myAim" && (
               <div className="myAim">
-                <h2 className="subHeading">My Aim</h2>
+                {/* <h2 className="subHeading">My Aim</h2> */}
                 <p className="introContentDetails">
                   My aim is to craft web applications that seamlessly blend
                   functionality with exceptional user experiences. By leveraging
@@ -97,7 +96,7 @@ const About = () => {
 
             {activeSection === "achievements" && (
               <div className="achievements">
-                <h2 className="subHeading">Achievements</h2>
+                {/* <h2 className="subHeading">Achievements</h2> */}
                 <div className="achievementsMainDiv">
                   <div className="certificationsDiv">
                     <h3>Certifications</h3>

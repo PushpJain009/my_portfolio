@@ -10,8 +10,20 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       {/* <div className="logoText">Pushp Jain</div> */}
-      <div className="logoText">PUSHP JAIN</div>
-      {/* <img className="logoText" src={Logo} alt="Logo" width={240}/> */}
+      {/* <div className="logoText">
+        <span className="firstLetter">P</span>USHP{" "}
+        <span className="firstLetter" style={{ marginLeft: "10px" }}>
+          J
+        </span>
+        AIN
+      </div> */}
+      {/* <img
+        className="logoText"
+        src={Logo}
+        alt="Logo"
+        width={200}
+        height="auto"
+      /> */}
       <div className="desktopMenu">
         <Link
           activeClass="active"

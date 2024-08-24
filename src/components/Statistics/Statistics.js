@@ -5,7 +5,7 @@ const Statistics = () => {
   return (
     <div className="statistics">
       <div>
-        <h1 className="heading" style={{ color: "white" }}>
+        <h1 className="heading">
           GITHUB STATS
         </h1>
       </div>

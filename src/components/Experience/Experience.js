@@ -15,14 +15,15 @@ const Experience = () => {
       <div className="experienceHeading">
         <h1 className="heading">Experience</h1>
       </div>
-      <VerticalTimeline lineColor="rgb(92, 181, 236)">
+      {/* <VerticalTimeline lineColor="rgb(92, 181, 236)"> */}
+      <VerticalTimeline lineColor="#F2F3F4">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#000", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "15px solid  rgb(33, 150, 243)" }}
-          date="Feb 2024 - Present"
+          contentArrowStyle={{ borderRight: "15px solid  #000" }}
+          date="Feb 2024 - Jul 2024"
           iconStyle={{
-            background: "#000",
+            background: "#F2F3F4",
             color: "#000",
             display: "flex",
             alignItems: "center",
@@ -45,7 +46,7 @@ const Experience = () => {
           </h4>
           <div className="exp_projects">
             <p>
-              Jain Community Application (S2S Connect)
+              Jain Community Application (S2S Connect):
               <br />
               Created a backend for implementing the required APIs such as
               Authentication, User Data, etc
@@ -67,11 +68,14 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "15px solid  rgb(33, 150, 243)" }}
+          // contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentStyle={{ background: "#fff", color: "#000" }}
+          // contentArrowStyle={{ borderRight: "15px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "15px solid  #fff" }}
           date="Feb 2023 - Feb 2024"
+          dateClassName="custom-date-style"
           iconStyle={{
-            background: "rgb(33, 150, 243)",
+            background: "#F2F3F4",
             color: "#000",
             display: "flex",
             alignItems: "center",
@@ -143,7 +147,7 @@ const Experience = () => {
           date="Jan 2022 - Feb 2023"
           iconStyle={{
             // background: "rgb(33, 150, 243)",
-            background: "#000",
+            background: "#F2F3F4",
             color: "#000",
             display: "flex",
             alignItems: "center",

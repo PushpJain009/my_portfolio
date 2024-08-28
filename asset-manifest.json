@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.4e1a5568.css",
-    "main.js": "/my_portfolio/static/js/main.c0cac022.js",
+    "main.js": "/my_portfolio/static/js/main.c1bb3de5.js",
     "static/media/GKC_Sample.mp4": "/my_portfolio/static/media/GKC_Sample.76f93cee1de9a655cfcc.mp4",
     "static/media/alpineAiLogo.png": "/my_portfolio/static/media/alpineAiLogo.aaf49e6d2301113cc991.png",
     "static/media/RPSG_Sample.png": "/my_portfolio/static/media/RPSG_Sample.ab42a91990131ddafa84.png",
@@ -12,7 +12,7 @@
     "static/media/self.png": "/my_portfolio/static/media/self.20bfb54ce8285b7d63e0.png",
     "static/media/PFTLogo.png": "/my_portfolio/static/media/PFTLogo.f30656c6f107eb5dc902.png",
     "static/media/ASRLogo.png": "/my_portfolio/static/media/ASRLogo.46af57d0782ed8ed2306.png",
-    "static/media/resume.pdf": "/my_portfolio/static/media/resume.2a1eb59cb8d0b03c126c.pdf",
+    "static/media/resume.pdf": "/my_portfolio/static/media/resume.674c828c6dcece57b033.pdf",
     "static/media/GKLogo.png": "/my_portfolio/static/media/GKLogo.4eb9a19b5a3418555a28.png",
     "static/media/logo.png": "/my_portfolio/static/media/logo.b305b28d43c5079a9e74.png",
     "static/media/OvoLinkedInLogo2.png": "/my_portfolio/static/media/OvoLinkedInLogo2.7848b2318b2eb0cc6920.png",
@@ -33,10 +33,10 @@
     "static/media/gmail.png": "/my_portfolio/static/media/gmail.a2f2146f929409405da0.png",
     "index.html": "/my_portfolio/index.html",
     "main.4e1a5568.css.map": "/my_portfolio/static/css/main.4e1a5568.css.map",
-    "main.c0cac022.js.map": "/my_portfolio/static/js/main.c0cac022.js.map"
+    "main.c1bb3de5.js.map": "/my_portfolio/static/js/main.c1bb3de5.js.map"
   },
   "entrypoints": [
     "static/css/main.4e1a5568.css",
-    "static/js/main.c0cac022.js"
+    "static/js/main.c1bb3de5.js"
   ]
 }
